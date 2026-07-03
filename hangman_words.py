@@ -1,0 +1,22 @@
+words = [
+    "apple", "banana", "orange", "grape", "mango",
+    "peach", "cherry", "lemon", "melon", "papaya",
+    "computer", "keyboard", "monitor", "printer", "mouse",
+    "laptop", "internet", "python", "program", "coding",
+    "school", "teacher", "student", "library", "college",
+    "science", "history", "english", "physics", "chemistry",
+    "elephant", "giraffe", "tiger", "lion", "zebra",
+    "kangaroo", "dolphin", "penguin", "rabbit", "monkey",
+    "mountain", "river", "ocean", "forest", "desert",
+    "island", "volcano", "waterfall", "valley", "glacier",
+    "football", "cricket", "tennis", "hockey", "baseball",
+    "basketball", "badminton", "volleyball", "cycling", "swimming",
+    "planet", "galaxy", "asteroid", "comet", "satellite",
+    "rocket", "astronaut", "telescope", "gravity", "universe",
+    "diamond", "emerald", "sapphire", "crystal", "treasure",
+    "adventure", "journey", "mystery", "legend", "kingdom",
+    "castle", "dragon", "wizard", "pirate", "treasure",
+    "bridge", "village", "airport", "station", "highway",
+    "camera", "guitar", "puzzle", "battery", "rainbow",
+    "thunder", "hurricane", "library", "calendar", "backpack"
+]
