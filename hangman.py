@@ -4,6 +4,9 @@ from hangman_words import words
 
 from hangman_art import stages
 
+from logo import logor
+print(logor)
+
 
 
 lives = 6
@@ -59,6 +62,12 @@ while not game_over:
              
 
 
+
+
+
+
+
+       
 
 
 
