@@ -1,85 +1,165 @@
- 🎮 Hangman Game
+# 🎯 Hangman Game (Python)
 
-A simple command-line Hangman game built with Python.
+A simple command-line **Hangman Game** built using Python.
 
-I created this project as part of my 100 Days of Python challenge to practice Python fundamentals like loops, conditionals, lists, modules, and working with multiple files.
+This project is part of my **100 Days of Python Bootcamp** journey where I practice Python fundamentals by building real projects.
 
- Features
+---
 
-- Random word selection
-- ASCII Hangman art
-- 6 lives system
-- Tracks correct guesses
-- Prevents repeated guesses
-- Win/Lose detection
-- Clean terminal gameplay
+## 📸 Preview
 
- Project Structure
+```
+ _                                             
+| |                                            
+| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
+| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
+| | | | (_| | | | | (_| | | | | | | (_| | | | |
+|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+                     __/ |
+                    |___/
 
+Guess the word: _ _ _ _ _
+```
 
-.
-├── hangman.py
-├── hangman_words.py
-├── hangman_art.py
+---
+
+## 🚀 Features
+
+- 🎲 Random word selection
+- 🎨 ASCII Hangman graphics
+- ❤️ 6 lives system
+- 🔤 Input validation
+- ⚠️ Prevents duplicate guesses
+- ✅ Tracks correct letters
+- ❌ Detects incorrect guesses
+- 🏆 Win/Lose conditions
+- 📂 Modular project structure
+
+---
+
+## 📁 Project Structure
+
+```text
+Day-7/
+│
+├── hangman.py          # Main game
+├── hangman_words.py    # Word list
+├── hangman_art.py      # ASCII stages
+├── logo.py             # Game logo
 └── README.md
+```
 
+---
 
- Getting Started
+## 🛠️ Technologies Used
 
-Clone the repository:
+- Python 3
+- Random Module
+- Lists
+- Loops
+- Strings
+- Conditional Statements
+- Import Modules
 
-bash
-git clone https://github.com/Faayer/hangman.git
+---
 
+## ▶️ How to Run
 
-Move into the project folder:
+Clone the repository
 
-bash
-cd hangman
+```bash
+git clone https://github.com/yourusername/hangman-python.git
+```
 
+Go to the project folder
 
-Run the game:
+```bash
+cd hangman-python
+```
 
-bash
-python3 hangman.py
+Run the game
 
+```bash
+python hangman.py
+```
 
- Example
+---
 
+## 🎮 How to Play
 
+1. A random word is selected.
+2. Guess one letter at a time.
+3. Every wrong guess loses one life.
+4. The hangman drawing updates after each mistake.
+5. Guess the word before all lives are lost!
+
+---
+
+## 💡 Example
+
+```text
 Guess a letter: a
 
-_ _ a _ _
+_ a _ _ _
 
-Lives: ❤️❤️❤️❤️❤️❤️
+Guess a letter: e
 
+Wrong guess!
 
- What I Learned
+Lives left: 5
+```
 
-While building this project, I practiced:
+---
 
-- Python modules and imports
-- Working with lists
-- Using the `random` module
-- Loops and conditional statements
-- String manipulation
-- Writing cleaner and more organized code
+## 📚 Concepts Practiced
 
-Future Improvements
+- Variables
+- Lists
+- Strings
+- Loops
+- Functions
+- Random module
+- Importing modules
+- While loop
+- For loop
+- Conditionals
+- Game logic
+- ASCII Art
 
-- Add difficulty levels
-- Add word categories
-- Hint system
+---
+
+## 🎯 Future Improvements
+
+- Difficulty levels
+- Categories
 - Scoreboard
-- Play Again option
-- Colored terminal output
+- Hints
+- Timer mode
+- Multiplayer
+- GUI version using Tkinter or Pygame
+- Save high scores
 
- About Me
+---
 
-Hi, I'm Rajeev Ranjan.
+## 🤝 Contributing
 
-I'm learning Python, AI, automation, and full-stack development by building real projects every day.
+Contributions are welcome!
 
-GitHub: https://github.com/Faayer
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a Pull Request
 
-If you found this project helpful, feel free to ⭐ the repository. Feedback and suggestions are always welcome!
+---
+
+## 📜 License
+
+This project is open source and available under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+**Rajeev Ranjan**
+
+Building projects while learning Python 🚀
